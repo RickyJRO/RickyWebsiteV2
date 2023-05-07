@@ -1,0 +1,17 @@
+.model__container {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+}
+.model {
+  width: 45vw;
+}
+@media only screen and (max-width: 1280px) {
+  .model__container {
+    align-items: flex-end;
+  }
+  .model {
+    width: 100vw;
+    height: 60vh;
+  }
+}
