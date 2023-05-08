@@ -4,14 +4,15 @@ import { styles } from "../styles";
 import Ricky from "./canvas/Ricky";
 
 const Hero = () => {
+  
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute  top-[120px]  max-w-5xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute  top-[140px]  max-w-5xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-        <div className="flex flex-col justify-center items-center mt-5">
+        <div className="flex flex-col justify-center items-center mt-8 ml-8">
           <div className="w-5 h-5 rounded-full bg-[#2EDBFA]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-1 sm:h-60 h-40 violet-gradient" />
         </div>
 
         <div>

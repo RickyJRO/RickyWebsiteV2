@@ -6,7 +6,17 @@
 .model {
   width: 45vw;
 }
+.testimonialsContainer {
+  -webkit-transition: height 1s;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s;
+}
 @media only screen and (max-width: 1280px) {
+  .testimonialFormContainer {
+    display: none;
+  }
   .model__container {
     align-items: flex-end;
   }
