@@ -33,7 +33,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-2 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-2 rounded-xl sm:w-[360px] w-full cursor-pointer"
       >
         <div
           onClick={() => window.open(projectLink, "_blank")}
@@ -42,7 +42,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-xl"
           />
         </div>
 
@@ -92,7 +92,7 @@ const Works = () => {
         </p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-8 justify-center">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {projects?.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
